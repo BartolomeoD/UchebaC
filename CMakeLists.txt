@@ -3,4 +3,4 @@ project(C)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C laba2/task2.cpp)
+add_executable(C laba4/task.cpp laba4/Auto.h)
