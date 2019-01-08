@@ -45,7 +45,7 @@ void FillArray(int width, int height, int array[100][100]) {
 
 void ShowArray(int width, int height, int array[100][100]) {
     for (int i = 0; i < width; i++) {
-        for (int j = 0; j < width; ++j) {
+        for (int j = 0; j < height; ++j) {
             printf("%i\t",array[j][i]);
         }
         printf("\n");
